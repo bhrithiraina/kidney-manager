@@ -58,7 +58,7 @@ app.delete('/', function(req, res) {
         }
         users[0].kidneys = newKidneys
         res.json({msg: "done"})
-   }else {
+   } else {
     res.status(411).json({
         msg: "you have no bad kidneys"
     });

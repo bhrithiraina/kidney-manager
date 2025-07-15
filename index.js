@@ -14,7 +14,7 @@ app.get('/', function(req, res) {
     const johnKidneys = users[0].kidneys;
     const numberOfKidneys = johnKidneys.length;
     let numberOfHealthyKidneys = 0;
-    for (let i = 0; i<johnKidneys.length; i++) {
+    for (let i = 0; i < johnKidneys.length; i++) {
         if (johnKidneys[i].healthy) {
             numberOfHealthyKidneys = numberOfHealthyKidneys + 1;
         }
